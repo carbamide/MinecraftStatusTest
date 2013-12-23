@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29BA38241868B06800C8A7A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BA38231868B06800C8A7A5 /* Cocoa.framework */; };
+		29BA382E1868B06800C8A7A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29BA382C1868B06800C8A7A5 /* InfoPlist.strings */; };
+		29BA38301868B06800C8A7A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA382F1868B06800C8A7A5 /* main.m */; };
+		29BA38341868B06800C8A7A5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 29BA38321868B06800C8A7A5 /* Credits.rtf */; };
+		29BA38371868B06800C8A7A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA38361868B06800C8A7A5 /* AppDelegate.m */; };
+		29BA383A1868B06800C8A7A5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BA38381868B06800C8A7A5 /* MainMenu.xib */; };
+		29BA383C1868B06800C8A7A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BA383B1868B06800C8A7A5 /* Images.xcassets */; };
+		29BA38431868B06800C8A7A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BA38421868B06800C8A7A5 /* XCTest.framework */; };
+		29BA38441868B06800C8A7A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BA38231868B06800C8A7A5 /* Cocoa.framework */; };
+		29BA384C1868B06800C8A7A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29BA384A1868B06800C8A7A5 /* InfoPlist.strings */; };
+		29BA384E1868B06800C8A7A5 /* Minecraft_Status_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA384D1868B06800C8A7A5 /* Minecraft_Status_TestTests.m */; };
+		29BA38591868B07400C8A7A5 /* MinecraftQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA38581868B07400C8A7A5 /* MinecraftQuery.m */; };
+		29BA385B1868D1A300C8A7A5 /* pack.c in Sources */ = {isa = PBXBuildFile; fileRef = 29BA385A1868D1A300C8A7A5 /* pack.c */; };
+		BC327EF8A49842BDB13040D8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 664734E0B7FA4EB89768B315 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29BA38451868B06800C8A7A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29BA38181868B06800C8A7A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29BA381F1868B06800C8A7A5;
+			remoteInfo = "Minecraft Status Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29BA38201868B06800C8A7A5 /* Minecraft Status Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minecraft Status Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BA38231868B06800C8A7A5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		29BA38261868B06800C8A7A5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		29BA38271868B06800C8A7A5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29BA38281868B06800C8A7A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29BA382B1868B06800C8A7A5 /* Minecraft Status Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Minecraft Status Test-Info.plist"; sourceTree = "<group>"; };
+		29BA382D1868B06800C8A7A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29BA382F1868B06800C8A7A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29BA38311868B06800C8A7A5 /* Minecraft Status Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Minecraft Status Test-Prefix.pch"; sourceTree = "<group>"; };
+		29BA38331868B06800C8A7A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		29BA38351868B06800C8A7A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29BA38361868B06800C8A7A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29BA38391868B06800C8A7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29BA383B1868B06800C8A7A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29BA38411868B06800C8A7A5 /* Minecraft Status TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minecraft Status TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BA38421868B06800C8A7A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		29BA38491868B06800C8A7A5 /* Minecraft Status TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Minecraft Status TestTests-Info.plist"; sourceTree = "<group>"; };
+		29BA384B1868B06800C8A7A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29BA384D1868B06800C8A7A5 /* Minecraft_Status_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Minecraft_Status_TestTests.m; sourceTree = "<group>"; };
+		29BA38571868B07400C8A7A5 /* MinecraftQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinecraftQuery.h; sourceTree = "<group>"; };
+		29BA38581868B07400C8A7A5 /* MinecraftQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinecraftQuery.m; sourceTree = "<group>"; };
+		29BA385A1868D1A300C8A7A5 /* pack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pack.c; sourceTree = "<group>"; };
+		29BA385C1868D1B900C8A7A5 /* pack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pack.h; sourceTree = "<group>"; };
+		664734E0B7FA4EB89768B315 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BE11FA81C448FCA5FE9406 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29BA381D1868B06800C8A7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BA38241868B06800C8A7A5 /* Cocoa.framework in Frameworks */,
+				BC327EF8A49842BDB13040D8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BA383E1868B06800C8A7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BA38441868B06800C8A7A5 /* Cocoa.framework in Frameworks */,
+				29BA38431868B06800C8A7A5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29BA38171868B06800C8A7A5 = {
+			isa = PBXGroup;
+			children = (
+				29BA38291868B06800C8A7A5 /* Minecraft Status Test */,
+				29BA38471868B06800C8A7A5 /* Minecraft Status TestTests */,
+				29BA38221868B06800C8A7A5 /* Frameworks */,
+				29BA38211868B06800C8A7A5 /* Products */,
+				D4BE11FA81C448FCA5FE9406 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		29BA38211868B06800C8A7A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29BA38201868B06800C8A7A5 /* Minecraft Status Test.app */,
+				29BA38411868B06800C8A7A5 /* Minecraft Status TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29BA38221868B06800C8A7A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29BA38231868B06800C8A7A5 /* Cocoa.framework */,
+				29BA38421868B06800C8A7A5 /* XCTest.framework */,
+				29BA38251868B06800C8A7A5 /* Other Frameworks */,
+				664734E0B7FA4EB89768B315 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29BA38251868B06800C8A7A5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29BA38261868B06800C8A7A5 /* AppKit.framework */,
+				29BA38271868B06800C8A7A5 /* CoreData.framework */,
+				29BA38281868B06800C8A7A5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		29BA38291868B06800C8A7A5 /* Minecraft Status Test */ = {
+			isa = PBXGroup;
+			children = (
+				29BA38571868B07400C8A7A5 /* MinecraftQuery.h */,
+				29BA38581868B07400C8A7A5 /* MinecraftQuery.m */,
+				29BA38351868B06800C8A7A5 /* AppDelegate.h */,
+				29BA38361868B06800C8A7A5 /* AppDelegate.m */,
+				29BA385A1868D1A300C8A7A5 /* pack.c */,
+				29BA385C1868D1B900C8A7A5 /* pack.h */,
+				29BA38381868B06800C8A7A5 /* MainMenu.xib */,
+				29BA383B1868B06800C8A7A5 /* Images.xcassets */,
+				29BA382A1868B06800C8A7A5 /* Supporting Files */,
+			);
+			path = "Minecraft Status Test";
+			sourceTree = "<group>";
+		};
+		29BA382A1868B06800C8A7A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29BA382B1868B06800C8A7A5 /* Minecraft Status Test-Info.plist */,
+				29BA382C1868B06800C8A7A5 /* InfoPlist.strings */,
+				29BA382F1868B06800C8A7A5 /* main.m */,
+				29BA38311868B06800C8A7A5 /* Minecraft Status Test-Prefix.pch */,
+				29BA38321868B06800C8A7A5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29BA38471868B06800C8A7A5 /* Minecraft Status TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				29BA384D1868B06800C8A7A5 /* Minecraft_Status_TestTests.m */,
+				29BA38481868B06800C8A7A5 /* Supporting Files */,
+			);
+			path = "Minecraft Status TestTests";
+			sourceTree = "<group>";
+		};
+		29BA38481868B06800C8A7A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29BA38491868B06800C8A7A5 /* Minecraft Status TestTests-Info.plist */,
+				29BA384A1868B06800C8A7A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29BA381F1868B06800C8A7A5 /* Minecraft Status Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29BA38511868B06800C8A7A5 /* Build configuration list for PBXNativeTarget "Minecraft Status Test" */;
+			buildPhases = (
+				AF6D665C47B14707A2C43CB8 /* Check Pods Manifest.lock */,
+				29BA381C1868B06800C8A7A5 /* Sources */,
+				29BA381D1868B06800C8A7A5 /* Frameworks */,
+				29BA381E1868B06800C8A7A5 /* Resources */,
+				BAF89E1EE27F4554B885C757 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minecraft Status Test";
+			productName = "Minecraft Status Test";
+			productReference = 29BA38201868B06800C8A7A5 /* Minecraft Status Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29BA38401868B06800C8A7A5 /* Minecraft Status TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29BA38541868B06800C8A7A5 /* Build configuration list for PBXNativeTarget "Minecraft Status TestTests" */;
+			buildPhases = (
+				29BA383D1868B06800C8A7A5 /* Sources */,
+				29BA383E1868B06800C8A7A5 /* Frameworks */,
+				29BA383F1868B06800C8A7A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29BA38461868B06800C8A7A5 /* PBXTargetDependency */,
+			);
+			name = "Minecraft Status TestTests";
+			productName = "Minecraft Status TestTests";
+			productReference = 29BA38411868B06800C8A7A5 /* Minecraft Status TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29BA38181868B06800C8A7A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jukaela Enterprises";
+				TargetAttributes = {
+					29BA38401868B06800C8A7A5 = {
+						TestTargetID = 29BA381F1868B06800C8A7A5;
+					};
+				};
+			};
+			buildConfigurationList = 29BA381B1868B06800C8A7A5 /* Build configuration list for PBXProject "Minecraft Status Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29BA38171868B06800C8A7A5;
+			productRefGroup = 29BA38211868B06800C8A7A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29BA381F1868B06800C8A7A5 /* Minecraft Status Test */,
+				29BA38401868B06800C8A7A5 /* Minecraft Status TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29BA381E1868B06800C8A7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BA382E1868B06800C8A7A5 /* InfoPlist.strings in Resources */,
+				29BA383C1868B06800C8A7A5 /* Images.xcassets in Resources */,
+				29BA38341868B06800C8A7A5 /* Credits.rtf in Resources */,
+				29BA383A1868B06800C8A7A5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BA383F1868B06800C8A7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BA384C1868B06800C8A7A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF6D665C47B14707A2C43CB8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF89E1EE27F4554B885C757 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29BA381C1868B06800C8A7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BA38371868B06800C8A7A5 /* AppDelegate.m in Sources */,
+				29BA38301868B06800C8A7A5 /* main.m in Sources */,
+				29BA385B1868D1A300C8A7A5 /* pack.c in Sources */,
+				29BA38591868B07400C8A7A5 /* MinecraftQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29BA383D1868B06800C8A7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BA384E1868B06800C8A7A5 /* Minecraft_Status_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29BA38461868B06800C8A7A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29BA381F1868B06800C8A7A5 /* Minecraft Status Test */;
+			targetProxy = 29BA38451868B06800C8A7A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29BA382C1868B06800C8A7A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29BA382D1868B06800C8A7A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29BA38321868B06800C8A7A5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29BA38331868B06800C8A7A5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		29BA38381868B06800C8A7A5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29BA38391868B06800C8A7A5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		29BA384A1868B06800C8A7A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29BA384B1868B06800C8A7A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29BA384F1868B06800C8A7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		29BA38501868B06800C8A7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		29BA38521868B06800C8A7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BE11FA81C448FCA5FE9406 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minecraft Status Test/Minecraft Status Test-Prefix.pch";
+				INFOPLIST_FILE = "Minecraft Status Test/Minecraft Status Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29BA38531868B06800C8A7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BE11FA81C448FCA5FE9406 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minecraft Status Test/Minecraft Status Test-Prefix.pch";
+				INFOPLIST_FILE = "Minecraft Status Test/Minecraft Status Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		29BA38551868B06800C8A7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Minecraft Status Test.app/Contents/MacOS/Minecraft Status Test";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minecraft Status Test/Minecraft Status Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Minecraft Status TestTests/Minecraft Status TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		29BA38561868B06800C8A7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Minecraft Status Test.app/Contents/MacOS/Minecraft Status Test";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minecraft Status Test/Minecraft Status Test-Prefix.pch";
+				INFOPLIST_FILE = "Minecraft Status TestTests/Minecraft Status TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29BA381B1868B06800C8A7A5 /* Build configuration list for PBXProject "Minecraft Status Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BA384F1868B06800C8A7A5 /* Debug */,
+				29BA38501868B06800C8A7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29BA38511868B06800C8A7A5 /* Build configuration list for PBXNativeTarget "Minecraft Status Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BA38521868B06800C8A7A5 /* Debug */,
+				29BA38531868B06800C8A7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29BA38541868B06800C8A7A5 /* Build configuration list for PBXNativeTarget "Minecraft Status TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BA38551868B06800C8A7A5 /* Debug */,
+				29BA38561868B06800C8A7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29BA38181868B06800C8A7A5 /* Project object */;
+}
